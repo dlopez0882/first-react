@@ -19,20 +19,36 @@ function Header() {
     )
 }
 
+function MainContent() {
+    return (
+        <main>
+            <h1>
+                Reason I am excited to learn React
+            </h1>
+            <ol>
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+            </ol>
+        </main>
+    )
+}
+
+function Footer() {
+    return (
+        <footer>
+            <small>&copy; 2025 test development. All rights reserved.</small>
+        </footer>
+        
+    )
+}
+
 function Page() {
     return (
         <>
             <Header />
-            <h1>
-                Reason I am excited to learn React
-            </h1>
-            <main>
-                <ol>
-                    <li>item1</li>
-                    <li>item2</li>
-                    <li>item3</li>
-                </ol>
-            </main>
+            <MainContent />
+            <Footer />
         </>
     )
 }
