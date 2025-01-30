@@ -14,7 +14,14 @@ const root = createRoot(document.getElementById("root"))
 function Header() {
     return (
         <header>
-            <img src="../src/assets/react.svg" width="40%" alt="React logo" />
+            <img src="../src/assets/react.svg" width="40px" alt="React logo" />
+            <nav>
+                <ul>
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
         </header>
     )
 }
